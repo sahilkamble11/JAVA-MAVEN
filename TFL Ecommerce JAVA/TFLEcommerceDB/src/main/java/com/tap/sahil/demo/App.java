@@ -28,7 +28,7 @@ public class App
         try
         {
          Statement stmt = conn.createStatement();
-         String query = ("INSERT INTO products WHERE id = %d ", id);
+         String query = ("INSERT INTO products WHERE id = ? "+ id);
          ResultSet rs = stmt.executeQuery(query);
          ResultSetMetaData rsmd=rs.getMetaData();
          int columncount=rsmd.getColumnCount();
@@ -51,7 +51,7 @@ public class App
        catch (SQLException e){
         System.out.println("SQL Error"+e.getMessage());
        }
-}
+    }
    
     public static void main( String[] args ) throws SQLException,UnknownFormatConversionException
     {
@@ -60,7 +60,8 @@ public class App
         a.disp();
 
     }
-}
+};
+
 
 
 
