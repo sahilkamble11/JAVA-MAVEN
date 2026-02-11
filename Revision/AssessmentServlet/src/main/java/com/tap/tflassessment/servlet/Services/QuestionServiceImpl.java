@@ -1,9 +1,9 @@
 package com.tap.tflassessment.servlet.Services;
 
+import java.util.List;
+
 import com.tap.tflassessment.servlet.Entities.QuestionModel;
 import com.tap.tflassessment.servlet.Repositories.QuestionRepositoryImpl;
-import com.tap.tflassessment.servlet.Repositories.QuestionRepository;
-import java.util.List;
 
 public class QuestionServiceImpl implements QuestionService{
 
