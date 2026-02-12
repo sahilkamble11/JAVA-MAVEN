@@ -3,6 +3,7 @@ package com.tap.tflassessment.servlet.Entities;
 public class QuestionModel {
     private int id ;
     private String title;
+    
 
     public QuestionModel(int id, String title) {
         this.id = id;
