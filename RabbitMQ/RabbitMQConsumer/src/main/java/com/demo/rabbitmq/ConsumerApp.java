@@ -12,6 +12,8 @@ public class ConsumerApp {
 
     public static void main(String[] args) {
 
+        
+
         try {
 
             // 1. Create connection factory
