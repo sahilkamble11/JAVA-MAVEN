@@ -10,6 +10,8 @@ public class ProducerApp {
 
     public static void main(String[] args) {
 
+
+        
         try {
 
             ConnectionFactory factory = new ConnectionFactory();
